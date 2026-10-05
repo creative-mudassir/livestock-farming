@@ -80,6 +80,12 @@ export default function App() {
 
   return (
     <ToastProvider>
+      <div className="scene" aria-hidden="true">
+        <span className="blob b1" />
+        <span className="blob b2" />
+        <span className="blob b3" />
+        <span className="blob b4" />
+      </div>
       <div className="app">
         <aside className={'sidebar' + (open ? ' open' : '')}>
           <div className="brand">

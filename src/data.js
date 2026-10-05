@@ -81,7 +81,7 @@ export const animals = Array.from({ length: 60 }, (_, i) => {
   const status = pick(statuses)
   const cost = type === 'Buffalo' ? int(280000, 520000) : type === 'Cow' ? int(180000, 380000) : int(45000, 120000)
   const expenses = Math.round(cost * (0.15 + rnd() * 0.25))
-  const income = Math.round(cost * (0.2 + rnd() * 0.7))
+  const income = Math.round((cost + expenses) * (0.9 + rnd() * 0.5))
   const farmer = pick(farmers)
   return {
     id: `${prefix[type]}-${100 + i}`,
