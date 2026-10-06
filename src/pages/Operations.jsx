@@ -17,7 +17,7 @@ export function Field() {
         <Card title="Live map" sub="DG Khan division · positions refresh every 5 min">
           <div className="map">
             <div className="river" />
-            <span className="town" style={{ left: '44%', top: '6%' }}>TAUNSA</span>
+            <span className="town" style={{ left: '53%', top: '20%' }}>TAUNSA</span>
             <span className="town" style={{ left: '50%', top: '46%' }}>DERA GHAZI KHAN</span>
             <span className="town" style={{ left: '34%', top: '70%' }}>JAMPUR</span>
             <span className="town" style={{ left: '22%', top: '93%' }}>RAJANPUR</span>
